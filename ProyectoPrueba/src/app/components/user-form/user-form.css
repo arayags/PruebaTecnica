@@ -1,0 +1,59 @@
+form {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  max-width: 600px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #1f2937;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+  transition: border 0.2s;
+}
+
+input:focus, select:focus {
+  border-color: #2563eb;
+  outline: none;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: all 0.2s ease;
+}
+
+button[type="submit"] {
+  background-color: #16a34a;
+  color: white;
+}
+
+button[type="submit"]:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+
+button[type="button"] {
+  background-color: #6b7280;
+  color: white;
+}
+
+/* Mensajes de error */
+.error {
+  color: #dc2626;
+  font-size: 13px;
+  margin-top: -8px;
+  margin-bottom: 10px;
+}

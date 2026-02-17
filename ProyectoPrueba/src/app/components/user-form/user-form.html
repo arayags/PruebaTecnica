@@ -1,0 +1,28 @@
+<h2>{{ isEditMode ? 'Editar Usuario' : 'Nuevo Usuario' }}</h2>
+
+<form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+
+  <input type="text" placeholder="Nombre" formControlName="usuario_Nombre">
+  <input type="text" placeholder="Apellido" formControlName="usuario_Apellido">
+
+  <select formControlName="usuario_Rol">
+
+  <option [ngValue]="1">Admin</option>
+  <option [ngValue]="2">Empleado</option>
+
+</select>
+
+
+  <input type="email" placeholder="Correo" formControlName="usuario_Correo">
+  <input type="text" placeholder="Usuario" formControlName="usuario_user">
+
+  <input type="password" placeholder="Contraseña" formControlName="usuario_Contrasena">
+  <input type="password" placeholder="Confirmar contraseña" formControlName="confirmarContrasena">
+
+  <button type="submit" [disabled]="userForm.invalid">
+    {{ isEditMode ? 'Actualizar' : 'Guardar' }}
+  </button>
+
+  <button type="button" (click)="onCancel()">Cancelar</button>
+
+</form>

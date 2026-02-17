@@ -1,0 +1,76 @@
+/* 🔹 Contenedor principal */
+.category-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* 🔹 Título */
+.category-container h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* 🔹 Grupo del input */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+/* 🔹 Label */
+.form-group label {
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #34495e;
+}
+
+/* 🔹 Input */
+.form-group input {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #dcdcdc;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+/* 🔹 Efecto focus */
+.form-group input:focus {
+  border-color: #3498db;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.15);
+}
+
+/* 🔹 Grupo de botones */
+.button-group {
+  display: flex;
+  justify-content: center;
+}
+
+/* 🔹 Botón principal */
+.btn-primary {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+/* 🔹 Hover */
+.btn-primary:hover {
+  background: #2980b9;
+  transform: translateY(-2px);
+}
+
+/* 🔹 Active */
+.btn-primary:active {
+  transform: translateY(0);
+}

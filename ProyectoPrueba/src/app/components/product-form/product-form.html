@@ -1,0 +1,55 @@
+<h3>{{ isEditMode ? 'Editar Producto' : 'Nuevo Producto' }}</h3>
+
+<form [formGroup]="productForm" (ngSubmit)="onSubmit()">
+
+  <label>Nombre</label>
+  <input type="text" formControlName="producto_Nombre">
+
+  <label>Precio</label>
+  <input type="number" formControlName="producto_Precio">
+
+  <label>Cantidad</label>
+  <input type="number" formControlName="producto_Cantidad">
+
+  <label>Descripción</label>
+  <input type="text" formControlName="producto_Descripcion">
+
+  <!-- 🔹 Categoría dinámica -->
+  <label>Categoría</label>
+  <select formControlName="producto_Categoria">
+
+    <option [ngValue]="null">-- Seleccione categoría --</option>
+
+    <option *ngFor="let c of (categorias$ | async)"
+            [ngValue]="c.categoria_id">
+
+      {{ c.categoria_Descripcion }}
+
+    </option>
+
+  </select>
+
+  <!-- 🔹 Responsable dinámico -->
+  <label>Responsable</label>
+  <select formControlName="producto_Responsable">
+
+    <option [ngValue]="null">-- Seleccione responsable --</option>
+
+    <option *ngFor="let u of (usuarios$ | async)"
+            [ngValue]="u.usuario_id">
+
+      {{ u.usuario_Nombre }} {{ u.usuario_Apellido }}
+
+    </option>
+
+  </select>
+
+  <button type="submit">
+    {{ isEditMode ? 'Actualizar' : 'Guardar' }}
+  </button>
+
+  <button type="button" (click)="onCancel()">
+    Cancelar
+  </button>
+
+</form>

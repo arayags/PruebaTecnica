@@ -1,0 +1,98 @@
+<!-- 🔹 Título principal -->
+<h2>Lista de Productos</h2>
+
+<!-- 🔹 Botonera superior -->
+<!-- 🔹 Botonera superior -->
+<div style="display:flex; gap:10px; margin-bottom:15px;">
+
+  <button (click)="onGoHome()">
+    🏠 Home
+  </button>
+
+  <button (click)="onAddProduct()">
+    ➕ Nuevo Producto
+  </button>
+
+  <button (click)="onOpenCategoryForm()">
+    🗂 Nueva Categoría
+  </button>
+
+</div>
+
+
+
+<!-- 🔹 Tabla solo se muestra si el observable tiene datos -->
+<table *ngIf="(productos$ | async) as productos">
+
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Nombre</th>
+      <th>Precio</th>
+      <th>Cantidad</th>
+      <th>Categoría</th>
+      <th>Responsable</th>
+      <th>Acciones</th>
+    </tr>
+  </thead>
+
+  <!-- 🔹 Si hay productos los mostramos -->
+  <tbody *ngIf="productos.length > 0; else noData">
+
+    <!-- 🔹 Iteración reactiva de productos -->
+    <tr *ngFor="let p of productos">
+
+      <!-- ID -->
+      <td>{{ p.producto_id }}</td>
+
+      <!-- Nombre -->
+      <td>{{ p.producto_Nombre }}</td>
+
+      <!-- Precio formateado a moneda -->
+      <td>{{ p.producto_Precio | currency:'₡' }}</td>
+
+      <!-- Cantidad con restricción visual -->
+      <td>
+        <span 
+          [style.color]="p.producto_Cantidad === 0 ? 'red' : 'inherit'">
+          {{ p.producto_Cantidad }}
+        </span>
+
+        <!-- 🔹 Indicador visual si no hay stock -->
+        <span *ngIf="p.producto_Cantidad === 0" 
+              style="color:red; font-size:12px;">
+          (Sin stock)
+        </span>
+      </td>
+
+      <!-- Categoría -->
+      <td>{{ p.categoria }}</td>
+
+      <!-- Responsable -->
+      <td>{{ p.responsable }}</td>
+
+      <!-- Acciones -->
+      <td>
+
+        <!-- Botón editar -->
+        <button (click)="onEdit(p)">
+          ✏️ Editar
+        </button>
+
+        <!-- Botón eliminar -->
+        <button 
+          (click)="onDelete(p.producto_id)">
+          🗑 Eliminar
+        </button>
+
+      </td>
+    </tr>
+
+  </tbody>
+
+</table>
+
+<!-- 🔹 Template que se muestra si no hay productos -->
+<ng-template #noData>
+  <p>No hay productos registrados.</p>
+</ng-template>

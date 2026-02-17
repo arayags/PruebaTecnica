@@ -1,0 +1,50 @@
+<h2>Usuarios</h2>
+
+<button (click)="onAdd()">➕ Nuevo Usuario</button>
+<div style="margin-bottom:15px;">
+  <button (click)="onGoToProducts()">
+    📦 Volver a Productos
+  </button>
+</div>
+
+<table *ngIf="(usuarios$ | async) as usuarios">
+
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Nombre</th>
+      <th>Apellido</th>
+      <th>Rol</th>
+      <th>Correo</th>
+      <th>Usuario</th>
+      <th>Acciones</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let u of usuarios">
+      <td>{{ u.usuario_id }}</td>
+      <td>{{ u.usuario_Nombre }}</td>
+      <td>{{ u.usuario_Apellido }}</td>
+      <td>{{ u.usuario_Rol === 1 ? 'Admin' : 'Empleado' }}</td>
+      <td>{{ u.usuario_Correo }}</td>
+      <td>{{ u.usuario_user }}</td>
+      <td>
+        <button (click)="onEdit(u)">Editar</button>
+        <button (click)="onDelete(u.usuario_id)">Eliminar</button>
+      </td>
+    </tr>
+  </tbody>
+
+</table>
+
+<!-- 🔥 FORMULARIO EN LA MISMA VISTA -->
+<div *ngIf="showForm" style="margin-top:30px; border-top:1px solid #ccc; padding-top:20px;">
+
+  <app-user-form
+    [user]="selectedUser"
+    (saved)="onCloseForm()"
+    (cancel)="onCloseForm()">
+  </app-user-form>
+
+</div>

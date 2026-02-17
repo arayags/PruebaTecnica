@@ -1,0 +1,230 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gabou\\source\\repos\\API_Prueba\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8FE42E18-0C66-9336-77AF-A670CBC2E6C0}|API_Prueba\\API_Prueba.csproj|c:\\users\\gabou\\source\\repos\\api_prueba\\api_prueba\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE42E18-0C66-9336-77AF-A670CBC2E6C0}|API_Prueba\\API_Prueba.csproj|solutionrelative:api_prueba\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FE42E18-0C66-9336-77AF-A670CBC2E6C0}|API_Prueba\\API_Prueba.csproj|c:\\users\\gabou\\source\\repos\\api_prueba\\api_prueba\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8FE42E18-0C66-9336-77AF-A670CBC2E6C0}|API_Prueba\\API_Prueba.csproj|solutionrelative:api_prueba\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FE42E18-0C66-9336-77AF-A670CBC2E6C0}|API_Prueba\\API_Prueba.csproj|c:\\users\\gabou\\source\\repos\\api_prueba\\api_prueba\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE42E18-0C66-9336-77AF-A670CBC2E6C0}|API_Prueba\\API_Prueba.csproj|solutionrelative:api_prueba\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FE42E18-0C66-9336-77AF-A670CBC2E6C0}|API_Prueba\\API_Prueba.csproj|c:\\users\\gabou\\source\\repos\\api_prueba\\api_prueba\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE42E18-0C66-9336-77AF-A670CBC2E6C0}|API_Prueba\\API_Prueba.csproj|solutionrelative:api_prueba\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FE42E18-0C66-9336-77AF-A670CBC2E6C0}|API_Prueba\\API_Prueba.csproj|c:\\users\\gabou\\source\\repos\\api_prueba\\api_prueba\\data\\usuarioreposiory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE42E18-0C66-9336-77AF-A670CBC2E6C0}|API_Prueba\\API_Prueba.csproj|solutionrelative:api_prueba\\data\\usuarioreposiory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FE42E18-0C66-9336-77AF-A670CBC2E6C0}|API_Prueba\\API_Prueba.csproj|c:\\users\\gabou\\source\\repos\\api_prueba\\api_prueba\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE42E18-0C66-9336-77AF-A670CBC2E6C0}|API_Prueba\\API_Prueba.csproj|solutionrelative:api_prueba\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FE42E18-0C66-9336-77AF-A670CBC2E6C0}|API_Prueba\\API_Prueba.csproj|c:\\users\\gabou\\source\\repos\\api_prueba\\api_prueba\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE42E18-0C66-9336-77AF-A670CBC2E6C0}|API_Prueba\\API_Prueba.csproj|solutionrelative:api_prueba\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FE42E18-0C66-9336-77AF-A670CBC2E6C0}|API_Prueba\\API_Prueba.csproj|c:\\users\\gabou\\source\\repos\\api_prueba\\api_prueba\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE42E18-0C66-9336-77AF-A670CBC2E6C0}|API_Prueba\\API_Prueba.csproj|solutionrelative:api_prueba\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FE42E18-0C66-9336-77AF-A670CBC2E6C0}|API_Prueba\\API_Prueba.csproj|c:\\users\\gabou\\source\\repos\\api_prueba\\api_prueba\\data\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE42E18-0C66-9336-77AF-A670CBC2E6C0}|API_Prueba\\API_Prueba.csproj|solutionrelative:api_prueba\\data\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FE42E18-0C66-9336-77AF-A670CBC2E6C0}|API_Prueba\\API_Prueba.csproj|c:\\users\\gabou\\source\\repos\\api_prueba\\api_prueba\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE42E18-0C66-9336-77AF-A670CBC2E6C0}|API_Prueba\\API_Prueba.csproj|solutionrelative:api_prueba\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FE42E18-0C66-9336-77AF-A670CBC2E6C0}|API_Prueba\\API_Prueba.csproj|c:\\users\\gabou\\source\\repos\\api_prueba\\api_prueba\\models\\createproductodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE42E18-0C66-9336-77AF-A670CBC2E6C0}|API_Prueba\\API_Prueba.csproj|solutionrelative:api_prueba\\models\\createproductodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FE42E18-0C66-9336-77AF-A670CBC2E6C0}|API_Prueba\\API_Prueba.csproj|c:\\users\\gabou\\source\\repos\\api_prueba\\api_prueba\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE42E18-0C66-9336-77AF-A670CBC2E6C0}|API_Prueba\\API_Prueba.csproj|solutionrelative:api_prueba\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FE42E18-0C66-9336-77AF-A670CBC2E6C0}|API_Prueba\\API_Prueba.csproj|c:\\users\\gabou\\source\\repos\\api_prueba\\api_prueba\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE42E18-0C66-9336-77AF-A670CBC2E6C0}|API_Prueba\\API_Prueba.csproj|solutionrelative:api_prueba\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\gabou\\source\\repos\\API_Prueba\\API_Prueba\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "API_Prueba\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\gabou\\source\\repos\\API_Prueba\\API_Prueba\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "API_Prueba\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T06:19:44.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gabou\\source\\repos\\API_Prueba\\API_Prueba\\Program.cs",
+              "RelativeDocumentMoniker": "API_Prueba\\Program.cs",
+              "ToolTip": "C:\\Users\\gabou\\source\\repos\\API_Prueba\\API_Prueba\\Program.cs",
+              "RelativeToolTip": "API_Prueba\\Program.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAiwE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T04:46:31.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\gabou\\source\\repos\\API_Prueba\\API_Prueba\\appsettings.json",
+              "RelativeDocumentMoniker": "API_Prueba\\appsettings.json",
+              "ToolTip": "C:\\Users\\gabou\\source\\repos\\API_Prueba\\API_Prueba\\appsettings.json",
+              "RelativeToolTip": "API_Prueba\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-17T04:42:33.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuarioReposiory.cs",
+              "DocumentMoniker": "C:\\Users\\gabou\\source\\repos\\API_Prueba\\API_Prueba\\Data\\UsuarioReposiory.cs",
+              "RelativeDocumentMoniker": "API_Prueba\\Data\\UsuarioReposiory.cs",
+              "ToolTip": "C:\\Users\\gabou\\source\\repos\\API_Prueba\\API_Prueba\\Data\\UsuarioReposiory.cs",
+              "RelativeToolTip": "API_Prueba\\Data\\UsuarioReposiory.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAUwH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T06:19:04.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\gabou\\source\\repos\\API_Prueba\\API_Prueba\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "API_Prueba\\Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\Users\\gabou\\source\\repos\\API_Prueba\\API_Prueba\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "API_Prueba\\Controllers\\ProductosController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAQwEIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T04:46:04.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\gabou\\source\\repos\\API_Prueba\\API_Prueba\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "API_Prueba\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\gabou\\source\\repos\\API_Prueba\\API_Prueba\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "API_Prueba\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T10:15:37.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\gabou\\source\\repos\\API_Prueba\\API_Prueba\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "API_Prueba\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\gabou\\source\\repos\\API_Prueba\\API_Prueba\\Models\\Usuario.cs",
+              "RelativeToolTip": "API_Prueba\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T04:44:29.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\Users\\gabou\\source\\repos\\API_Prueba\\API_Prueba\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "API_Prueba\\Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\Users\\gabou\\source\\repos\\API_Prueba\\API_Prueba\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "API_Prueba\\Controllers\\CategoriasController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T09:02:18.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\gabou\\source\\repos\\API_Prueba\\API_Prueba\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "API_Prueba\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\gabou\\source\\repos\\API_Prueba\\API_Prueba\\Models\\Categoria.cs",
+              "RelativeToolTip": "API_Prueba\\Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T09:01:12.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\gabou\\source\\repos\\API_Prueba\\API_Prueba\\Data\\ProductoRepository.cs",
+              "RelativeDocumentMoniker": "API_Prueba\\Data\\ProductoRepository.cs",
+              "ToolTip": "C:\\Users\\gabou\\source\\repos\\API_Prueba\\API_Prueba\\Data\\ProductoRepository.cs",
+              "RelativeToolTip": "API_Prueba\\Data\\ProductoRepository.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAQwKAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T04:45:06.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateProductoDto.cs",
+              "DocumentMoniker": "C:\\Users\\gabou\\source\\repos\\API_Prueba\\API_Prueba\\Models\\CreateProductoDto.cs",
+              "RelativeDocumentMoniker": "API_Prueba\\Models\\CreateProductoDto.cs",
+              "ToolTip": "C:\\Users\\gabou\\source\\repos\\API_Prueba\\API_Prueba\\Models\\CreateProductoDto.cs",
+              "RelativeToolTip": "API_Prueba\\Models\\CreateProductoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T08:28:35.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\gabou\\source\\repos\\API_Prueba\\API_Prueba\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "API_Prueba\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\gabou\\source\\repos\\API_Prueba\\API_Prueba\\Models\\Producto.cs",
+              "RelativeToolTip": "API_Prueba\\Models\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T06:00:50.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\gabou\\source\\repos\\API_Prueba\\API_Prueba\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "API_Prueba\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\gabou\\source\\repos\\API_Prueba\\API_Prueba\\Services\\ProductService.cs",
+              "RelativeToolTip": "API_Prueba\\Services\\ProductService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwBoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T06:01:53.911Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

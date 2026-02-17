@@ -1,0 +1,78 @@
+<!--  HEADER PRINCIPAL -->
+<header class="main-header">
+  <h1>📦 Sistema de Inventarios</h1>
+
+  <button *ngIf="currentView !== 'login'" (click)="logout()">
+    🔒 Cerrar sesión
+  </button>
+</header>
+
+
+<!--  LOGIN -->
+<app-login
+  *ngIf="currentView === 'login'"
+  (loginSuccess)="goToHome()">
+</app-login>
+
+
+<!--  HOME (Pantalla Principal) -->
+<app-home
+  *ngIf="currentView === 'home'"
+  (goToProductos)="goToDashboard('productos')"
+  (goToUsuarios)="goToDashboard('usuarios')"
+  (goToCategorias)="goToCategoryForm()">
+</app-home>
+
+
+<!--  DASHBOARD -->
+<div *ngIf="currentView === 'dashboard'" class="dashboard-container">
+
+  <!--  Navegación interna -->
+  <div class="dashboard-nav">
+
+    <button 
+      (click)="currentSection = 'productos'"
+      [class.active]="currentSection === 'productos'">
+      📦 Productos
+    </button>
+
+    <button 
+      (click)="currentSection = 'usuarios'"
+      [class.active]="currentSection === 'usuarios'">
+      👤 Usuarios
+    </button>
+
+  </div>
+
+  <!--  PRODUCTOS -->
+  <app-product-list
+    *ngIf="currentSection === 'productos'"
+    (openForm)="goToForm()"
+    (editProduct)="goToForm($event)"
+    (openCategoryForm)="goToCategoryForm()"
+    (goToUsers)="currentSection = 'usuarios'">
+  </app-product-list>
+
+  <!--  USUARIOS -->
+  <app-user-list
+    *ngIf="currentSection === 'usuarios'"
+    (goToProducts)="currentSection = 'productos'">
+  </app-user-list>
+
+</div>
+
+
+<!--  FORMULARIO PRODUCTO -->
+<app-product-form
+  *ngIf="currentView === 'form'"
+  [product]="selectedProduct"
+  (productSaved)="goBackToDashboard()"
+  (cancel)="goBackToDashboard()">
+</app-product-form>
+
+
+<!-- FORMULARIO CATEGORÍA -->
+<app-category-form
+  *ngIf="currentView === 'categoryForm'"
+  (saved)="goBackFromCategory()">
+</app-category-form>

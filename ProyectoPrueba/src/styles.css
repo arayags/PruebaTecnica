@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+.main-header {
+  background: linear-gradient(90deg, #111827, #1f2937);
+  color: white;
+  padding: 18px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header button {
+  background: #dc2626;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.dashboard-container {
+  padding: 20px;
+}
+
+.dashboard-nav {
+  margin-bottom: 20px;
+}
+
+.dashboard-nav button {
+  margin-right: 10px;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.dashboard-nav button.active {
+  background-color: #2563eb;
+  color: white;
+}
